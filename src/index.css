@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    border: 0;
+}
+li{
+    list-style: none;
+}
+:root{
+  --bg-color-dark: black;
+  --primary-color: #46c5a6;
+  --rightbottom-color: linear-gradient(
+    229.87deg,
+    #3194e4 10.73%,
+    #46c5a6 93.06%
+  );
+  --leftbottom-color: rgba(255, 255, 255, 0.08);
+  --bar-color: linear-gradient(90.2deg, #46c5a6 -17.24%, #3194e4 130.52%);
+  --terminal-color: #131313;
+  --area: border: 2px solid #46c5a6;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+  --section-padding: 0rem 5rem;
+  --test: 2px solid red;
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+    background: var(--bg-color-dark);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+a{          
+  text-decoration: none;
+  color: white;
+  transition: all 400ms ease-in-out;
+}
+a:hover{
+  color: #46c5a6;
+}
+
+/* =========== GENERAL STYLE ========== */
+h1,h2,h3,h4,h5{
+  font-size: 10vmin;
+  font-weight: 700;
+}
+h1::selection{
+  background-color: #131313;
+  color: var(--primary-color);
+}
+br::selection{
+  display: none;
+}
+section{
+  margin-top: 5rem;
+}
+.ctn{
+  font-size: 1.45rem;
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 400ms ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.ctn:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.ctnblur{
+  background-color: var(--leftbottom-color);
+  color: white;
+}
+.ctnmain{
+  background: var(--rightbottom-color);
+  color: white;
+}
+/* img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+} */
+
+
+
+
+/* ===============MEDIA QUARYS (SMALL)========== */
+
+
+
+@media screen and (max-width: 1024px){
+    .container{
+      width: var(--container-width-md);
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+      width: var(--container-width-sm);
+    }
+}

@@ -1,0 +1,70 @@
+.container-flude nav {
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    padding: 2.5rem 5rem;
+    z-index: 2;
+    position: fixed;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .form-check-input {
+    background-color: var(--leftbottom-color) !important;
+    color: #46c5a6;
+    border: none;
+  }
+  .form-switch .form-check-input:checked {
+    background-image: red;
+    border: none;
+  }
+
+  @media only screen and (min-width: 1080px){
+    .mobile-nav{
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container-flude nav {
+      padding: 2rem 1rem;
+    }
+    nav ul {
+      display: flex;
+      align-items: center;
+      transform: translateY(0.5rem);
+    }
+    .sm-nav{
+     display: none;
+    }
+    .mobile-nav{
+        position: fixed;
+        bottom: 0;
+        background-color: var(--leftbottom-color);
+        backdrop-filter: blur(20px);
+        width: 98%;
+        margin: 10px 5px;
+        border-radius: 2rem;
+        z-index: 3;
+    }
+    .mobile-nav ul{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0.5rem;
+    }
+    .mobile-nav li{
+      padding: 0.5rem;
+      font-size: 1.3rem;
+    }
+  }
