@@ -1,22 +1,17 @@
 import React from 'react'
 
 function Terminal() {
-  // const [Matrix,setMatrix] = useState('this is the terminal defalult matrix');
-  
-  // const Genarator = () =>{
-  //   let i = 0;
-  //   while(true){
-  //   setMatrix(i);
-  //   i++;
-  //   }
-  // }
-  // // Genarator();
-  
-
   return (
-    <div>
-      <p id="matrix"></p>
-    </div>
+    <div className="hero-terminl">
+              <div className="upper">
+                <span className="circle yellow"></span>
+                <span className="circle green"></span>
+                <span className="circle red"></span>
+              </div>
+              <div className="lower">
+
+              </div>
+            </div>
   )
 }
 

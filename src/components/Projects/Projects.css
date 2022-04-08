@@ -1,0 +1,72 @@
+#project{
+    width: 100%;
+    display: flex;
+    
+}
+.container-fluide{
+    margin-top: 10vh;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-r{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.pcol{
+    line-height: 2rem;
+    
+}
+.colright{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+.project-img{
+   width: 80%;
+}  
+.project-img img{
+    width: 100%;
+}
+
+
+
+
+
+
+.group-btn .ctn{
+    background: var(--rightbottom-color);
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .container-fluide{
+        display: block;
+    }
+    .pcol{
+        width: 100%;
+        text-align: center;
+    }
+    .group-btn{
+        text-align: center;
+    }
+    .group-btn a{
+        font-size: 1rem;
+        padding: 5px 15px;
+    }
+    .colright{
+        display: block;
+        margin-top: 20px;
+    }
+    .project-img{
+        width: 100%;
+    }
+    .project-img img{
+            object-fit: cover;
+           
+    }
+}

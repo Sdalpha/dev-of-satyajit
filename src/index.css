@@ -75,14 +75,29 @@ section{
 }
 .ctn:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: white;
 }
 .ctnblur{
   background-color: var(--leftbottom-color);
   color: white;
+  font-size: 1.45rem;
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 400ms ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .ctnmain{
   background: var(--rightbottom-color);
   color: white;
+}
+.linebar{
+  height: 1rem;
+  width: 20rem;
+  background: var(--rightbottom-color);
+  border-radius: 2rem;
 }
 /* img{
   display: block;

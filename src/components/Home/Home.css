@@ -54,11 +54,21 @@
 }
 .hero-terminl .lower{
     display: flex;
-    justify-content: center;
+    justify-content: space-around; 
+    height: 25rem;
 }
 .lower img{
     height: 60vmin;
     position: absolute;
+}
+.row::after{
+    content: '';
+    height: 10rem;
+    width: 100%;
+    background: linear-gradient(to top,black,rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /* ======MEDIA (Home)======== */

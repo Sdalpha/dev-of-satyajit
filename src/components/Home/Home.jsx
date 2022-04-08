@@ -19,13 +19,13 @@ export default function Home() {
               <span className="fed">Front End Developer</span>
             </h1>
             <div className="ctn-group my-4">
-              <button className="ctn ctnblur">
+              <a href="https://github.com/Sdalpha" className="ctn ctnblur">
                 {" "}
                 <FaGithub /> Github
-              </button>
-              <button className="ctn ctnmain mx-4">
+              </a>
+              <a href="#project"  className="ctn ctnmain mx-4">
                 <FaCode /> PROJECT
-              </button>
+              </a>
             </div>
           </div>
           <div className="col-lg-4 col-12 right-col">
