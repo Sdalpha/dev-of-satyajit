@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/dev-of-satyajit/static/css/main.ef23cb98.css",
-    "main.js": "/dev-of-satyajit/static/js/main.262af33b.js",
+    "main.css": "/dev-of-satyajit/static/css/main.dd14596d.css",
+    "main.js": "/dev-of-satyajit/static/js/main.a7c10be4.js",
     "static/js/787.9ca7dac6.chunk.js": "/dev-of-satyajit/static/js/787.9ca7dac6.chunk.js",
     "static/media/bg1.png": "/dev-of-satyajit/static/media/bg1.f733cbd01376f4032163.png",
     "static/media/hero.png": "/dev-of-satyajit/static/media/hero.5200d67abd139d802ead.png",
+    "static/media/skill.png": "/dev-of-satyajit/static/media/skill.70bee7882a4e93ab5a93.png",
+    "static/media/sksplay.png": "/dev-of-satyajit/static/media/sksplay.64a742042159a1c8ce53.png",
+    "static/media/covidproject.png": "/dev-of-satyajit/static/media/covidproject.743daf2b8986abc61c36.png",
     "index.html": "/dev-of-satyajit/index.html",
-    "main.ef23cb98.css.map": "/dev-of-satyajit/static/css/main.ef23cb98.css.map",
-    "main.262af33b.js.map": "/dev-of-satyajit/static/js/main.262af33b.js.map",
+    "main.dd14596d.css.map": "/dev-of-satyajit/static/css/main.dd14596d.css.map",
+    "main.a7c10be4.js.map": "/dev-of-satyajit/static/js/main.a7c10be4.js.map",
     "787.9ca7dac6.chunk.js.map": "/dev-of-satyajit/static/js/787.9ca7dac6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef23cb98.css",
-    "static/js/main.262af33b.js"
+    "static/css/main.dd14596d.css",
+    "static/js/main.a7c10be4.js"
   ]
 }
