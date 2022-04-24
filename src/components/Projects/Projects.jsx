@@ -48,7 +48,7 @@ function Projects() {
     </div>
 
     </div>
-    <div className="row">
+    <div className="row" id='miniProjects'>
       <MiniProjects/>
     </div>
     </>
