@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dev-of-satyajit/static/css/main.ff866699.css",
-    "main.js": "/dev-of-satyajit/static/js/main.bff4a780.js",
+    "main.js": "/dev-of-satyajit/static/js/main.42712cd2.js",
     "static/js/787.9ca7dac6.chunk.js": "/dev-of-satyajit/static/js/787.9ca7dac6.chunk.js",
     "static/media/bg1.png": "/dev-of-satyajit/static/media/bg1.f733cbd01376f4032163.png",
     "static/media/hero.png": "/dev-of-satyajit/static/media/hero.5200d67abd139d802ead.png",
@@ -10,11 +10,11 @@
     "static/media/covidproject.png": "/dev-of-satyajit/static/media/covidproject.7bc506fcdf47bebe45ad.png",
     "index.html": "/dev-of-satyajit/index.html",
     "main.ff866699.css.map": "/dev-of-satyajit/static/css/main.ff866699.css.map",
-    "main.bff4a780.js.map": "/dev-of-satyajit/static/js/main.bff4a780.js.map",
+    "main.42712cd2.js.map": "/dev-of-satyajit/static/js/main.42712cd2.js.map",
     "787.9ca7dac6.chunk.js.map": "/dev-of-satyajit/static/js/787.9ca7dac6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff866699.css",
-    "static/js/main.bff4a780.js"
+    "static/js/main.42712cd2.js"
   ]
 }
