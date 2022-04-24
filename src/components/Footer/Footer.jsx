@@ -25,19 +25,19 @@ function Footer() {
 
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">Projects</a>
+              <a href="#project" class="text-white">Projects</a>
             </h6>
           </div>
 
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">Skills</a>
+              <a href="#skills" class="text-white">Skills</a>
             </h6>
           </div>
 
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">Home</a>
+              <a href="#home" class="text-white">Home</a>
             </h6>
           </div>
 
@@ -46,9 +46,9 @@ function Footer() {
       </section>
 
 
-      <hr class="my-5" />
+     <hr class="my-3" /> 
 
-      <section class="mb-2">
+      {/* <section class="mb-2">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-8">
             <p>
@@ -57,9 +57,9 @@ function Footer() {
 
           </div>
         </div>
-      </section>
+      </section>  */}
 
-      <section class="text-center mb-2">
+      {/* <section class="text-center mb-2">
         <a href="/" class="text-white me-4">
           <i class="fab fa-facebook-f"></i>
         </a>
@@ -78,7 +78,7 @@ function Footer() {
         <a href="/" class="text-white me-4">
           <i class="fab fa-github"></i>
         </a>
-      </section>
+      </section> */}
 
     </div>
 

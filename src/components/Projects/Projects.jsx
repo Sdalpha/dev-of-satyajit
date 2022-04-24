@@ -3,10 +3,16 @@ import "./Projects.css";
 import { FaGithub, FaCode } from "react-icons/fa";
 import pr2 from "../../asset/covidproject.png"
 import pr1 from "../../asset/sksplay.png"
+import MiniProjects from './MiniProjects';
 function Projects() {
   return (
+    <>
+    <div className="row heading-project" >
+      <span className='linebar'></span>
+      <h2>Projects</h2>
+      <p>I love building projects and practice my engineering skills, here's an archive of things that I've worked on.</p>
+    </div>
     <div id='project'>
-
     <div className="container-fluide">
       <div className="row project-r">
         <div className="col-lg-6 col-sm-12 pcol colleft">
@@ -42,6 +48,10 @@ function Projects() {
     </div>
 
     </div>
+    <div className="row">
+      <MiniProjects/>
+    </div>
+    </>
   )
 }
 
