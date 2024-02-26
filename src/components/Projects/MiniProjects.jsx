@@ -6,7 +6,7 @@ function MiniProjects() {
         <table class="table table-dark table-striped my-5">
   <thead>
     <tr>
-      <th scope="col">Mini Projects</th>
+      <th scope="col">Company's Projects</th>
      
       <th scope="col">Deploy Links</th>
     </tr>

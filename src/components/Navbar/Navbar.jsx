@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import Toggle from "../utils/toggle/Toggle";
+// import Toggle from "../utils/toggle/Toggle";
 import Navsm from "./Navsm";
 
 export default function Navbar() {
@@ -43,11 +43,11 @@ export default function Navbar() {
               <a className="sm-nav" href="#project">Projects</a>
             </li>
             <li>
-              <a className="sm-nav" href="#about">About</a>
+              <a className="sm-nav" href="https://github.com/Sdalpha" target="_" >About</a>
             </li>
-            <li>
+            {/* <li>
               <Toggle/>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

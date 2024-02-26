@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.css";
-import { FaGithub, FaCode } from "react-icons/fa";
+import { FaGithub, FaCode, FaLinkedin } from "react-icons/fa";
 import heroImage from "../../asset/hero.png";
+import resume from "../../asset/Resume_Fab.pdf";
 
 
 export default function Home() {
@@ -16,15 +17,21 @@ export default function Home() {
               <br />
               i'm satyajit
               <br />
-              <span className="fed">Front End Developer</span>
+              <span className="fed">Full Stack Developer</span>
             </h1>
+              
             <div className="ctn-group my-4">
               <a href="https://github.com/Sdalpha" className="ctn ctnblur">
                 {" "}
                 <FaGithub /> Github
               </a>
-              <a href="#project"  className="ctn ctnmain mx-4">
-                <FaCode /> PROJECT
+              <a href="https://www.linkedin.com/in/satyajit-dutta-9a3b021b9/" target="_" className="ctn ctnblur mx-4">
+                {" "}
+                <FaLinkedin /> Linkdin
+              </a>
+              <a href={resume} target="_"
+              className="ctn ctnmain">
+                <FaCode /> Resume
               </a>
             </div>
           </div>
